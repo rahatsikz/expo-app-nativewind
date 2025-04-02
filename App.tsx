@@ -1,10 +1,10 @@
 import './global.css';
+import Entypo from '@expo/vector-icons/Entypo';
+import { CountView } from 'components/count-view';
+import { dummyStats } from 'constant';
 import { StatusBar } from 'expo-status-bar';
 import { Image, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Entypo from '@expo/vector-icons/Entypo';
-import { dummyStats } from 'constant';
-import { CountView } from 'components/count-view';
 
 export default function App() {
   return (
